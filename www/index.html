@@ -1,14 +1,53 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8" />
-        <meta name="format-detection" content="telephone=no" />
-        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
-        <link rel="stylesheet" type="text/css" href="css/style.css" />
-        <meta name="msapplication-tap-highlight" content="no" />
-        <title>MundialApp</title>
-    </head>
-    <body>
-        <h1>Welcome to Mundialapp aplication.</h1>
-    </body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    
+    <script type="text/javascript" src="js/vendor/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/fixture.js"></script>
+    
+    <script type="text/javascript">
+      $(document).on('ready',function() {
+        createFixture();
+  
+      });
+
+    </script>
+
+    <title>MundialApp</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>MundialApp</h1>
+      <select id="select" name="tags" onchange="createFixture();" >
+        <option value="A">Grupo A</option><!-- Si Selecciono uno-->
+        <option value="B">Grupo B</option>
+      </select>
+      <div class="fixture">
+        <div class="team partido1">
+          
+        </div>
+        <div class="team partido2">
+        
+        </div>
+        <div class="team partido3">
+          
+        </div>
+        <div class="team partido4">
+          
+        </div>
+        <div class="team partido5">
+          
+        </div>
+        <div class="team partido6">
+          
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
