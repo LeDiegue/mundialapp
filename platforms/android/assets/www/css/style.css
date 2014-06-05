@@ -1,5 +1,19 @@
 body {
-	background: #000;
-	color: #fff;
+	background: #fff;
 	text-align: center;
+}
+
+.fixture {
+	background: red;
+}
+
+.team {
+	background: #ccc;
+	margin: 2px;
+	padding: 10px;
+}
+
+.team > span {
+	padding: 1%;
+	margin: 20px;
 }
