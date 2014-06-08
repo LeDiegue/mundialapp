@@ -37,8 +37,12 @@
 /home/lediegue/phonegap/mundialapp/platforms/android/assets/www/cordova.js \
 /home/lediegue/phonegap/mundialapp/platforms/android/assets/www/img/logo.png \
 /home/lediegue/phonegap/mundialapp/platforms/android/assets/www/css/style.css \
+/home/lediegue/phonegap/mundialapp/platforms/android/assets/www/css/vendor \
 /home/lediegue/phonegap/mundialapp/platforms/android/assets/www/css/index.css \
+/home/lediegue/phonegap/mundialapp/platforms/android/assets/www/css/vendor/jquery.mobile-1.4.2.min.css \
+/home/lediegue/phonegap/mundialapp/platforms/android/assets/www/js/ajax.js \
 /home/lediegue/phonegap/mundialapp/platforms/android/assets/www/js/fixture.js \
 /home/lediegue/phonegap/mundialapp/platforms/android/assets/www/js/vendor \
+/home/lediegue/phonegap/mundialapp/platforms/android/assets/www/js/vendor/jquery.mobile-1.4.2.min.js \
 /home/lediegue/phonegap/mundialapp/platforms/android/assets/www/js/vendor/jquery-2.1.1.min.js \
 /home/lediegue/phonegap/mundialapp/platforms/android/ant-build/AndroidManifest.xml \

@@ -11,10 +11,14 @@
     <script type="text/javascript" src="js/vendor/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="js/vendor/jquery.mobile-1.4.2.min.js"></script>
     <script type="text/javascript" src="js/fixture.js"></script>
+    <script type="text/javascript" src="js/ajax.js"></script>
     
     <script type="text/javascript">
       $(document).on('ready',function() {
+        get_json();
         createFixture();
+
+        
   
       });
 
@@ -48,6 +52,13 @@
         <div class="team partido6">
           
         </div>
+
+        <div id="asd">
+          
+        </div>
+
+        <a href="" onclick="get_json();">Refresh</a>
+
       </div>
     </div>
   </body>

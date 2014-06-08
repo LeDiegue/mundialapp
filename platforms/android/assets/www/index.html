@@ -5,15 +5,20 @@
     <meta name="format-detection" content="telephone=no" />
     <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
     <meta name="msapplication-tap-highlight" content="no" />
-    
+    <link rel="stylesheet" type="text/css" href="css/vendor/jquery.mobile-1.4.2.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     
     <script type="text/javascript" src="js/vendor/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/vendor/jquery.mobile-1.4.2.min.js"></script>
     <script type="text/javascript" src="js/fixture.js"></script>
+    <script type="text/javascript" src="js/ajax.js"></script>
     
     <script type="text/javascript">
       $(document).on('ready',function() {
+        get_json();
         createFixture();
+
+        
   
       });
 
@@ -47,6 +52,13 @@
         <div class="team partido6">
           
         </div>
+
+        <div id="asd">
+          
+        </div>
+
+        <a href="" onclick="get_json();">Refresh</a>
+
       </div>
     </div>
   </body>
