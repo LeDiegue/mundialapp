@@ -23,8 +23,13 @@ function createFixture() {
 				Grupo[4] = "wea";
 				break;
 
-		}
-		$('#fixture').append('<div class="A'+ i +'"></div>');
+		};
+
+$('#fixture').append('<div data-role="page" id="P'+ i +'"><div data-theme="a" data-role="header"><h3>Fixture</h3></div><div data-role="content"><div class="fixture"><div class="A'+ i +'"></div></div></div><div data-theme="a" data-role="footer" data-position="fixed"></div></div>');
+
+
+
+
 		$('.A'+ i +'').append('<h2>Grupo ' + i + '</h2>')
 		$('#fixture').find('.A'+i).append(
 			'<div class="team partido' + i + '"><span>' + Grupo[1] + '</span> VS <span>' + Grupo[2] + '</span></div>',

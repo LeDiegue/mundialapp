@@ -1,22 +1,23 @@
-$(document).on('pagebeforeshow', '#index', function(){       
+$(document).on('pagebeforeshow', '#P1', function(){       
     $(document).on('swipeleft', '#change-page-button', function(){     
         // store some data
         //Change page
-        $.mobile.changePage("#second");
+        $.mobile.changePage("#P2");
     });    
 });
-$(document).on('swipeleft', '#index', function(){     
+
+$(document).on('swipeleft', '#P1', function(){     
         // store some data
         //Change page
-        $.mobile.changePage("#second");
+        $.mobile.changePage("#P2");
     });    
 
-$(document).on('swiperight', '#second', function(){     
+$(document).on('swiperight', '#P2', function(){     
         // store some data
         //Change page
-        $.mobile.changePage("#index");
+        $.mobile.changePage("#P1");
     });    
-$(document).on('pagebeforeshow', '#second', function(){     
+$(document).on('pagebeforeshow', '#P2', function(){     
     
 });
 
@@ -25,3 +26,4 @@ var storeObject = {
     firstname : '',
     lastname : ''
 }
+
