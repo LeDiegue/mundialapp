@@ -25,7 +25,7 @@ function createFixture() {
 
 		};
 
-$('#fixture').append('<div data-role="page" id="P'+ i +'"><div data-theme="a" data-role="header"><h3>Fixture</h3></div><div data-role="content"><div class="fixture"><div class="A'+ i +'"></div></div></div><div data-theme="a" data-role="footer" data-position="fixed"></div></div>');
+$('.ui-page').append('<div data-role="page" id="P'+ i +'"><div data-theme="a" data-role="header"><h3>Fixture</h3></div><div data-role="content"><div class="fixture"><div class="A'+ i +'"></div></div></div><div data-theme="a" data-role="footer" data-position="fixed"></div></div>');
 
 
 

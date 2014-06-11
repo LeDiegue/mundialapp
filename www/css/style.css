@@ -1,19 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  border-top:1px solid #000000;
+}
 body {
 	background: #fff;
 	text-align: center;
 }
-
-.fixture {
-	background: red;
+.grupo{
+  margin: 0 auto;
 }
-
-.team {
-	background: #ccc;
-	margin: 2px;
-	padding: 10px;
+.grupo-title{
+  margin-left: -15px;
 }
-
-.team > span {
-	padding: 1%;
-	margin: 20px;
+.equipo-der, .equipo-izq, .resultado-der, .resultado-izq{
+  display: inline-block;
+  padding: 5px;
+  float: left;
 }
+.partido_1, .partido_2, .partido_3, .partido_4, .partido_5, .partido_6{
+  width: 90%;
+
+  margin-left: 10% !important;
+}
+.equipo-izq{
+  width: 30%;
+  float: left;
+}
+.resultado-izq{
+  width: 10%;
+}
+.equipo-der{
+  width: 30%;
+
+}
+.resultado-der{
+  width: 10%;
+}
+.
+/*.equipo-der, .resultado-der{
+  float: right;
+}
+.resultado-izq, .equipo-izq{
+  float: left;
+}*/
